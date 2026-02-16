@@ -1,0 +1,27 @@
+name: yuanshuangtuijian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanshuangtuijian
+        env:
+          e236: ${{ secrets.e236 }}
+        run: |
+          echo $e236 | jq -r .eur1 | /bin/bash
+          echo $efaw0201 | jq -r .i0 | /bin/bash
+          echo $iihw429 | jq -r .eqqsl0 | /bin/bash
+          echo $wio3469 | jq -r .h8194 | /bin/bash
+          echo $ehfp8243 | jq -r .laxax4 | /bin/bash
+          echo $v4452 | jq -r .pok5956 | /bin/bash
+          echo $a491 | jq -r .rkd387 | /bin/bash
+          echo $bhlxl9 | jq -r .za3459 | /bin/bash
+          echo $cgfua4846 | jq -r .cdw1413 | /bin/bash
+          echo $pyvf51 | jq -r .fblf28506 | /bin/bash
+          echo $u125 | jq -r .frps70 | /bin/bash
+          echo $nz318 | jq -r .ajzou7 | /bin/bash
+
